@@ -1,0 +1,47 @@
+Acme\HelloBundle\Entity\products:
+    type: entity
+    table: null
+    repositoryClass: Acme\HelloBundle\Entity\productsRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        pname:
+            type: string
+            length: '100'
+        pnameRu:
+            type: string
+            length: '100'
+            column: pname_ru
+        fullname:
+            type: string
+            length: 255
+        partnumber:
+            type: string
+            length: '20'
+        manufacturer:
+            type: string
+            length: '100'
+        kod:
+            type: integer
+        garant:
+            type: integer
+        cena_dyler:
+            type: float
+        cena_gurt:
+            type: float
+        cena_dribnyj_gurt:
+            type: float
+        cena_rozdrib:
+            type: float
+        ostatok_lviv:
+            type: integer
+        ostatok_kyyiv:
+            type: integer
+        ostatok_odesa:
+            type: integer
+        productcategory:
+            type: string
+    lifecycleCallbacks: {  }

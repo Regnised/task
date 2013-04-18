@@ -1,0 +1,4 @@
+magaz_hello:
+    resource: "@MagazHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+

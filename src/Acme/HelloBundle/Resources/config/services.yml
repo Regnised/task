@@ -1,0 +1,7 @@
+parameters:
+#    magaz_hello.example.class: Acme\HelloBundle\Example
+
+services:
+#    magaz_hello.example:
+#        class: %magaz_hello.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

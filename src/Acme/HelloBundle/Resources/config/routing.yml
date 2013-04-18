@@ -1,0 +1,7 @@
+magaz_hello_homepage:
+    pattern:  /
+    defaults: { _controller: MagazHelloBundle:Default:index }
+
+magaz_hello_homepage2:
+    pattern:  /new
+    defaults: { _controller: MagazHelloBundle:Default:new }

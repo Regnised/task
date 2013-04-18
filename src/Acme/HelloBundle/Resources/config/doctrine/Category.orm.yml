@@ -1,0 +1,24 @@
+Acme\HelloBundle\Entity\Category:
+    type: entity
+    table: Category
+    repositoryClass: Acme\HelloBundle\Entity\CategoryRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        name:
+            type: string
+            length: '50'
+        name_ru:
+            type: string
+            length: '50'
+        parentcat:
+            type: string
+            length: '50'
+            nullable: true
+        kod:
+            type: integer
+            nullable: true
+    lifecycleCallbacks: {  }
